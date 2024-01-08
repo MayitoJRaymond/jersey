@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
+
+<!-- fontAwesome links -->
+<link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/fontawesome.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/brands.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet">
+<!-- css -->
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<link rel="stylesheet" href="css/nav-footer.css">
+<link rel="stylesheet" href="css/product-view.css">
+<link rel="stylesheet" href="css/checkout.css">
+
+    <title>JRJerseyStores</title>
+</head>
+<body>
+    <!-- navbar
+    
+  
+    
+     -->
+
+      
+<nav class="topg">
+  <!-- top G -->
+  <div class="top-begin">
+    <a href=""><i class="fa-solid fa-envelope"></i>
+      <span>raymondmayito@gmail.com</span>
+      </a>
+      <a href=""><i class="fa-solid fa-phone"></i>
+      <span>+256754205197</span></a>
+  </div>
+  <div class="icons-top">
+    <a href=""><i class="fa-regular fa-user"></i>
+    <span>My Account</span>
+    </a>
+    <a href=""><i class="fa-solid fa-cart-shopping"></i>
+    <span>Shop</span></a>
+    <a href=""><i class="fa-solid fa-truck"></i>
+    <span>Track Your Order</span>
+    </a>
+  </div>
+  <!-- <hr> -->
+</nav>
+
+<!-- 2nd top G -->
+<div class="row">
+
+  <!-- column1 -->
+  <div class="column1"><img src="photos/jRlogo-removebg.png" alt="">
+    
+  </div>
+  
+  
+
+
+
+  <!-- column 2 -->
+  <div class="column2 search-container">
+     <input type="search" placeholder="Search for Products"/>
+     <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+<!-- column3 -->
+  <div class="column3"> 
+    <ul class="icon-shop">
+    <li class="nav-item active">
+      <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+    </li>
+    <li class="nav-item active cart-icon">
+      <a class="nav-link" href="#"><i class="fa-solid fa-basket-shopping"></i>
+        <span class="cart-price" id="cartTotal">UGX 0.00</span>
+        <span class="cart-items" id="cartItems">0</span>
+      </a>
+    </li>
+  </ul>
+</div>
+</div>
+
+
+
+<!-- dropdown -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="mx-auto order-2 ">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item ">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Leagues
+        </a>
+        <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Uganda Premier League</a></li>
+          <li><a class="dropdown-item" href="#">Premier League</a></li>
+          <li><a class="dropdown-item" href="#">La Liga</a></li>
+          <li><a class="dropdown-item" href="#">Bundesliga</a></li>
+          <li><a class="dropdown-item" href="#">Serie A</a></li>
+          <li><a class="dropdown-item" href="#">Saudi Pro League</a></li>
+          <li><a class="dropdown-item" href="#">LMS</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Others</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">International</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FootWear</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Kids
+        </a>
+        <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">FootWear</a></li>
+          <li><a class="dropdown-item" href="#">Jerseys</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Others</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          TeamPlainJerseys
+        </a>
+        <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">soccer</a></li>
+          <li><a class="dropdown-item" href="#">Baskeball</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Others-Sports</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Equipments</a>
+      </li>
+    </ul>
+  </div>
+   <!-- gfd -->
+   <div class="sidebar" id="sidebar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+<div class="content">
+    <div class="navbar-side">
+        <span class="hamburger" id="hamburger">&#9776;</span>
+    </div>
+</div>
+  <!-- fgd -->
+</nav>
+
+
+<div class="hidden-navbars" id="scrollDiv">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="mx-auto order-2 ">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Leagues
+          </a>
+          <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Uganda Premier League</a></li>
+            <li><a class="dropdown-item" href="#">Premier League</a></li>
+            <li><a class="dropdown-item" href="#">La Liga</a></li>
+            <li><a class="dropdown-item" href="#">Bundesliga</a></li>
+            <li><a class="dropdown-item" href="#">Serie A</a></li>
+            <li><a class="dropdown-item" href="#">Saudi Pro League</a></li>
+            <li><a class="dropdown-item" href="#">LMS</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Others</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">International</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FootWear</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Kids
+          </a>
+          <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">FootWear</a></li>
+            <li><a class="dropdown-item" href="#">Jerseys</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Others</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            TeamPlainJerseys
+          </a>
+          <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">soccer</a></li>
+            <li><a class="dropdown-item" href="#">Baskeball</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Others-Sports</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Equipments</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+<!-- cart items -->
+<h2>CheckOut Page</h2>
+
+
+
+<div class="rowcheck">
+
+  <!-- returning Customer -->
+  
+    <!-- Billing Details -->
+    <div class="columncheck">
+  
+        <div> <span>Returning customer?</span><a href=""> Click here to Login</a></div>
+        <h2>Billing Details</h2>
+
+<form>
+  <div class="personal">
+    <label for="firstName">First Name *</label>
+  <input type="text" id="firstName" name="firstName" required>
+
+  <label for="lastName">Last Name *</label>
+  <input type="text" id="lastName" name="lastName" required>
+  </div>
+  
+
+  <label for="companyName">Company Name (optional)</label>
+  <input type="text" id="companyName" name="companyName">
+
+  <label for="country">Country / Region *</label>
+  <select id="country" name="country" required>
+    <option value="Uganda">Uganda</option>
+    <!-- Add more options as needed -->
+  </select>
+
+  <label for="streetAddress">Street Address *</label>
+  <input type="text" id="streetAddress" name="streetAddress" required>
+
+  <label for="apartment">Apartment, suite, unit, etc. (optional)</label>
+  <input type="text" id="apartment" name="apartment">
+
+  <label for="town">Town / Village *</label>
+  <input type="text" id="town" name="town" required>
+
+  <label for="district">District *</label>
+  <select id="district" name="district" required>
+    <option value="" disabled selected>Select a district</option>
+    <option value="Kampala">Kampala</option>
+    <option value="Jinja">Jinja</option>
+    <option value="Entebbe">Entebbe</option>
+    <option value="Kampala">Mbale</option>
+    <option value="Jinja">Arua</option>
+    <option value="Entebbe">Gulu</option>
+    <option value="Kampala">Wakiso</option>
+    <option value="Jinja">Mukono</option>
+    <option value="Entebbe">Masaka</option>
+    <option value="Kampala">Mityana</option>
+    <option value="Jinja">Luweero</option>
+    <option value="Entebbe">Iganga</option>
+    <option value="Kampala">Mbarara</option>
+    <option value="Jinja">Bushenyi</option>
+    <option value="Entebbe">Lyantonde</option>
+    <option value="Kampala">Tororo</option>
+    <option value="Jinja">Lira</option>
+    <option value="Entebbe">Koboko</option>
+    <option value="Kampala">Hoima</option>
+    <option value="Jinja">Fortportal</option>
+    <option value="Entebbe">Bulisa</option>
+    <option value="Kampala">Kasese</option>
+    <option value="Jinja">Masindi</option>
+    <option value="Entebbe">Entebbe</option>
+   
+  </select>
+  <label for="phone">Phone *</label>
+  <input type="tel" id="phone" name="phone" required>
+
+  <label for="email">Email address *</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="createAccount"><a href="">Create an account?</a></label>
+ 
+  <h3>Additional Information</h3>
+
+  <label for="orderNotes">Order notes (optional)</label>
+  <textarea id="orderNotes" name="orderNotes" rows="4"></textarea>
+
+  <button type="submit"> <a href="payment.html">Submit</a></button>
+</form>
+
+    </div>
+
+    <!-- checkout for items -->
+    <div class="columncheck">
+      <div class='order-info'>
+        <div class='order-info-content'>
+          <h2>Order Summary</h2>
+                  <div class='line'></div>
+          <table class='order-table'>
+            <tbody>
+              <tr>
+                <td><img src='https://dl.dropboxusercontent.com/s/sim84r2xfedj99n/%24_32.JPG' class='full-width'></img>
+                </td>
+                <td>
+                  <br> <span class='thin'>Nike</span>
+                  <br> Free Run 3.0 Women<br> <span class='thin small'> Color: Grey/Orange, Size: 10.5<br><br></span>
+                </td>
+  
+              </tr>
+              <tr>
+                <td>
+                  <div class='price'>$99.95</div>
+                </td>
+              </tr>
+            </tbody>
+  
+          </table>
+          <div class='line'></div>
+          <table class='order-table'>
+            <tbody>
+              <tr>
+                <td><img src='https://dl.dropboxusercontent.com/s/qbj9tsbvthqq72c/Vintage-20L-Backpack-by-Fj%C3%A4llr%C3%A4ven.jpg' class='full-width'></img>
+                </td>
+                <td>
+                  <br> <span class='thin'>Fjällräven</span>
+                  <br>Vintage Backpack<br> <span class='thin small'> Color: Olive, Size: 20L</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class='price'>$235.95</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class='line'></div>
+          <table class='order-table'>
+            <tbody>
+              <tr>
+                <td><img src='https://dl.dropboxusercontent.com/s/nbr4koso8dpoggs/6136C1p5FjL._SL1500_.jpg' class='full-width'></img>
+                </td>
+                <td>
+                  <br> <span class='thin'>Monobento</span>
+                  <br>Double Lunchbox<br> <span class='thin small'> Color: Pink, Size: Medium</span>
+                </td>
+  
+              </tr>
+              <tr>
+                <td>
+                  <div class='price'>$25.95</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class='line'></div>
+          <div class='total'>
+            <span style='float:left;'>
+              <div class='thin dense'>VAT 19%</div>
+              <div class='thin dense'>Delivery</div>
+              TOTAL
+            </span>
+            <span style='float:right; text-align:right;'>
+              <div class='thin dense'>$68.75</div>
+              <div class='thin dense'>$4.95</div>
+              $435.55
+            </span>
+          </div>
+  </div>
+  </div>
+
+               <!--Payment options  -->
+               <div class="pay">
+                
+               </div>
+</div>
+
+</div>
+
+    
+
+  <!-- footer -->
+  <footer>
+    <div class="row-footer">
+      <div class="column">
+        <!-- Add content for the first column here -->
+      <h3>Contact Us</h3>
+      <p>For Any Question? call Us on:</p>
+      <p>+256754205197</p>
+  
+      <h3>Location:</h3>
+      <P>ARUA PARK PLAZA A4-238</P>
+      <P>Kampala Uganda</P>
+  
+      <div class="social-icons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+      </div>
+      <div class="column">
+        <!-- Add content for the second column here -->
+        <h3>Quick Links</h3>
+        <a href=""><p>How to buy at JR Stores</p></a>
+        <a href=""><p>Payment Methods</p></a>
+        <a href=""><p>My Account</p></a>
+        <a href=""><p>About Us</p></a>
+        <a href=""><p>Shop</p></a>
+        <a href=""><p>FAQs</p></a>
+      </div>
+      <div class="column">
+        <!-- Add content for the third column here -->
+        <h3>Use Policies</h3>
+        <a href=""><p>Terms and Conditions</p></a>
+        <a href=""><p>Refunds and Returns Policy</p></a>
+        <a href=""><p>Privacy Policy and Notice</p></a>
+        <a href=""><p>Cookie Notice</p></a>
+        <a href=""><p>Protection Policy</p></a>
+      </div>
+      <div><p>JRJerseyStores: All Rights Reserved : from Raystil</p></div>
+
+    </div>
+  </footer>
+  
+
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="js/product-view.js" ></script>
+<!-- <script src="js/jersey.js" ></script> -->
+
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

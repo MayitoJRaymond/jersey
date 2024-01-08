@@ -1,0 +1,264 @@
+.topg{
+    
+    width: 100%;
+    height:10vh;
+    top: 10px;
+    background-color:grey;
+    
+
+    
+}
+
+.topg span{
+color: aqua;
+}
+
+.topg i{
+color: #fff;
+}
+
+
+.top-begin{
+    position: absolute;
+    top: 20px;
+    left: 0;
+margin-left: 50px;
+justify-content: space-between; 
+
+
+}
+
+.top-begin a:not(:last-child){
+    border-right: 1px solid black;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.icons-top{
+  font-size: 15px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+margin-right: 50px;
+justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    }
+    
+
+.icons-top a:not(:last-child){
+    border-right: 1px solid black;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+hr{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.icon-shop{
+    display:flex;
+    /* margin-right: 50px; */
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.icon-shop i{
+    font-size: 19px;
+}
+
+/* search, logo, icons */
+
+.row{
+    display: grid;
+   grid-template-columns: 25% 50% 25%;
+   column-gap: 5px;
+   /* position: sticky; */
+   top:100px;
+   background-color: rgb(165, 155, 155);
+   /* z-index: 10;
+   height: 14vh; */
+}
+
+/* .column1 img{
+    width: 85%;
+    height: 10vh;
+} */
+.logo{
+  width: 20%;
+  
+  
+  }
+  .column1 img {
+      display: block;
+      margin-left: 50px;
+      padding: 0;
+      height:15vh;
+      width: 70%;
+      object-fit: contain;
+  
+  }
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  text-align: center;
+  z-index: 11;
+}
+
+.sidebar a {
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+.content {
+  margin-left: 0;
+  transition: 0.3s;
+}
+
+.navbar-side {
+  background-color: #333;
+  padding: 5px;
+}
+
+.hamburger {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hamburger:hover {
+  background-color: #555;
+}
+
+.column2{
+   margin: 15px 0px;
+    text-align: center;
+    background-color: white;
+    padding: 0px 0px;
+    border-radius: 25px;
+    height: 45%;
+    
+}
+.column2 input[type=search] {
+  width: 80%;
+  margin-bottom: 12px;
+  padding: 0px 0px 0px 15px;
+  border: none;
+  align-items: center;
+ margin-top: 10px;
+}
+
+.column2 input{
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    outline: none;
+}
+
+.column2 input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.column2 i{
+    font-size: 20px;
+    margin-left: auto;
+    
+}
+
+.column3{
+    margin-top: 20px;
+}
+
+.cart-icon {
+    display: flex;
+    align-items: center; /* Vertically center the icon and price */
+  }
+  
+  .cart-price {
+    font-weight: bold;
+    margin-left: 5px; /* Adjust the spacing as needed */
+    color: green; /* You can set the desired color */
+  }
+
+
+  /* dropdown */
+  /* 2nd navbar */
+.navbar{
+  /* top: 13px; */
+    height:10vh;
+   background-color: grey;
+   margin-bottom: 20px;
+
+}
+
+  .navbar-nav{
+    font-weight: bold;
+    
+  }
+
+  .hidden-navbars {
+    top: 0px;
+    position: sticky;
+    z-index: 12;
+    display: none;
+  }
+
+
+
+
+
+  
+/* footer */
+.row-footer{
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+    grid-column-gap: 6px;
+    margin: 50px;
+    padding: 40px;
+    background-color:whitesmoke;
+    text-align: center;
+
+
+}
+ .column{
+    
+   
+    font-size: 15px;
+}
+
+.column a{
+    color: black;
+}
+
+.social-icons{
+    margin-top:40px;
+    margin-bottom: 50px;
+    font-size: 27px;
+}
+
+.social-icons a{
+    margin: 6px;
+    color: grey;
+}
+
+.social-icons a :hover{
+    color: rgb(223, 15, 15);
+}

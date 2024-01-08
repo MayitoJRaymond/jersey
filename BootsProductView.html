@@ -1,0 +1,490 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
+
+<!-- fontAwesome links -->
+<link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/fontawesome.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/brands.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet">
+<!-- css -->
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<link rel="stylesheet" href="css/nav-footer.css">
+<link rel="stylesheet" href="css/product-view.css">
+
+    <title>JRJerseyStores</title>
+</head>
+<body>
+    <!-- navbar
+    
+  
+    
+     -->
+
+      
+<nav class="topg">
+  <!-- top G -->
+  <div class="top-begin">
+    <a href=""><i class="fa-solid fa-envelope"></i>
+      <span>raymondmayito@gmail.com</span>
+      </a>
+      <a href=""><i class="fa-solid fa-phone"></i>
+      <span>+256754205197</span></a>
+  </div>
+  <div class="icons-top">
+    <a href=""><i class="fa-regular fa-user"></i>
+    <span>My Account</span>
+    </a>
+    <a href=""><i class="fa-solid fa-cart-shopping"></i>
+    <span>Shop</span></a>
+    <a href=""><i class="fa-solid fa-truck"></i>
+    <span>Track Your Order</span>
+    </a>
+  </div>
+  <!-- <hr> -->
+</nav>
+
+<!-- 2nd top G -->
+<div class="row">
+
+  <!-- column1 -->
+  <div class="column1"><img src="photos/jRlogo-removebg.png" alt="">
+    
+  </div>
+  
+  
+
+
+
+  <!-- column 2 -->
+  <div class="column2 search-container">
+     <input type="search" placeholder="Search for Products"/>
+     <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+<!-- column3 -->
+  <div class="column3"> 
+    <ul class="icon-shop">
+    <li class="nav-item active">
+      <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+    </li>
+    <li class="nav-item active cart-icon">
+      <a class="nav-link" href="#"><i class="fa-solid fa-basket-shopping"></i>
+        <span class="cart-price" id="cartTotal">UGX 0.00</span>
+        <span class="cart-items" id="cartItems">0</span>
+      </a>
+    </li>
+  </ul>
+</div>
+</div>
+
+
+
+<!-- dropdown -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="mx-auto order-2 ">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item ">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Leagues
+        </a>
+        <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Uganda Premier League</a></li>
+          <li><a class="dropdown-item" href="#">Premier League</a></li>
+          <li><a class="dropdown-item" href="#">La Liga</a></li>
+          <li><a class="dropdown-item" href="#">Bundesliga</a></li>
+          <li><a class="dropdown-item" href="#">Serie A</a></li>
+          <li><a class="dropdown-item" href="#">Saudi Pro League</a></li>
+          <li><a class="dropdown-item" href="#">LMS</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Others</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">International</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FootWear</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Kids
+        </a>
+        <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">FootWear</a></li>
+          <li><a class="dropdown-item" href="#">Jerseys</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Others</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          TeamPlainJerseys
+        </a>
+        <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">soccer</a></li>
+          <li><a class="dropdown-item" href="#">Baskeball</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Others-Sports</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Equipments</a>
+      </li>
+    </ul>
+  </div>
+   <!-- gfd -->
+   <div class="sidebar" id="sidebar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+<div class="content">
+    <div class="navbar-side">
+        <span class="hamburger" id="hamburger">&#9776;</span>
+    </div>
+</div>
+  <!-- fgd -->
+</nav>
+
+
+<div class="hidden-navbars" id="scrollDiv">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="mx-auto order-2 ">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Leagues
+          </a>
+          <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Uganda Premier League</a></li>
+            <li><a class="dropdown-item" href="#">Premier League</a></li>
+            <li><a class="dropdown-item" href="#">La Liga</a></li>
+            <li><a class="dropdown-item" href="#">Bundesliga</a></li>
+            <li><a class="dropdown-item" href="#">Serie A</a></li>
+            <li><a class="dropdown-item" href="#">Saudi Pro League</a></li>
+            <li><a class="dropdown-item" href="#">LMS</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Others</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">International</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FootWear</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Kids
+          </a>
+          <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">FootWear</a></li>
+            <li><a class="dropdown-item" href="#">Jerseys</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Others</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            TeamPlainJerseys
+          </a>
+          <ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">soccer</a></li>
+            <li><a class="dropdown-item" href="#">Baskeball</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Others-Sports</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Equipments</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+    <!-- product-details -->
+    <div class="productrow">
+        <!-- first column-product -->
+        <div class="productcolumn">
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                  </div>
+                
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                  </div>
+                
+                </div>
+              </div>
+            
+              <!-- Swiper JS -->
+              
+              <!-- Initialize Swiper -->
+             
+         </div>
+
+
+         <!-- details of the item -->
+<!-- 2nd column product -->
+        <div class="productcolumn">
+           <h3>jersey 2023/2024 kit</h3>
+          <div class="price">
+            <span class="old-price">$50.00</span>
+           <span class="new-price">$40.00</span>
+         </div>
+
+         <div class="form-group">
+          <label for="size">Select Size:</label>
+          <select id="size" onchange="updateTotal()">
+            <option value="" disabled selected>Choose an option</option>
+            <option value="40">40 | 7</option>
+            <option value="41">41 | 7.5</option>
+            <option value="42">42 | 8</option>
+            <option value="43">43 | 8.5</option>
+            <option value="44">44 | 9</option>
+            <option value="45">45 | 9.5</option>
+          </select>
+        </div>
+      
+        <div id="selectedOption"></div>
+        <div id="clearButton" onclick="clearSelection()" class="clear">Clear</div>
+        <br>
+        <br>
+
+
+       
+        <div class="cart-container">
+          <div class="item">
+            <span>Product Total:</span>
+            <span id="productTotal">$40.99</span>
+          </div>
+          <!-- <div class="item">
+            <span>Optional Personalization:</span>
+            <span id="optionalTotal">$0.00</span>
+          </div> -->
+          <div class="item">
+            <span>Quantity:</span>
+            <span id="quantityTotal">1</span>
+          </div>
+          <div class="item">
+            <span>Grand Total:</span>
+            <span id="grandTotal">$40.0</span>
+          </div>
+        </div>
+        <div class="viewcart">
+          <div class="form-group">
+            <input type="number" id="quantity" value="1" min="1" onchange="updateTotal()">
+          </div>
+          <!-- button -->
+          <a href="checkout.html"><button class="btn-cart"><i class="fa-solid fa-cart-plus" onclick="addToCart()"></i> <span>Add to Checkout</span></button></a>
+        </div>
+       
+    </div>
+
+</div>
+           
+                                         <h3>Description</h3> <hr>
+<div class="description">
+  
+  <p>Forget everything you knew about fast. adidas X Crazyfast has been engineered using lightweight components 
+    specifically designed for acceleration and dribbling at speed. So when you step onto the field, into the cage
+     or wherever you play, in X Crazyfast the only speed limit is the one set by you.</p>
+  
+    <div class="instructions">
+      
+      <h3 >More Information</h3>
+      <hr>
+      <ul>
+        <li>Regular fit</p></li>
+        <li>Lace closure</p></li>
+        <li>Lightweight Speedframe outsole</p></li>
+        <li>Aerocage engineered support lining</p></li>
+        <li>Imported</p></li>
+      </ul>
+
+<hr>
+<br>
+<br>
+
+</div>
+
+<h3>Related Products</h3>
+<br>
+
+<div class="row2 ">
+  <div class="column">
+    <img src="https://i1.adis.ws/i/ArsenalDirect/whz2104_f?$220x210$&fmt=webp&qlt=90" alt="">
+    <div class="card-body">
+      <h6 class="card-title">Arsenal Away 3rd kit Player Version 2023/2024</h6>
+      <div class="price">
+        <span class="old-price">UGX80.000</span>
+       <span class="new-price">UGX60.000</span>
+     </div>
+     <button class="btn-cart"><i class="fa-solid fa-cart-plus"></i> <span>Add to Cart</span></button>
+      <button class="btn-view"><span>Quick View</span></button>
+    </div>
+  </div>
+
+  <div class="column">
+    <img src="https://i1.adis.ws/i/ArsenalDirect/whz2111_f?$220x210$&fmt=webp&qlt=90" alt="">
+    <div class="card-body">
+      <h6 class="card-title">Arsenal Player Version 2023/2024</h6>
+      <p class="card-text">Authentic Arsenal product</p>
+      <div class="price">
+        <span class="old-price">UGX80.000</span>
+       <span class="new-price">UGX60.000</span>
+     </div>
+     <!-- add to cart -->
+      <button class="btn-cart"><i class="fa-solid fa-cart-plus"></i> <span>Add to Cart</span></button>
+      <button class="btn-view"><span>Quick View</span></button>
+  
+    </div>
+  </div>
+
+  <div class="column">
+    <img src="https://images.footballfanatics.com/real-madrid/real-madrid-adidas-home-shirt-2023-24-with-bellingham-5-printing_ss4_p-14430072+u-9kwy9m5xfk1zr7gs9wz9+v-b44e07329b334200b74d96ccefe35cdb.jpg?_hv=2&w=340" alt="">
+    <div class="card-body">
+      <h6 class="card-title">Product Name 1</h6>
+      <p class="card-text">Description of Product 1</p>
+      <div class="price">
+        <span class="old-price">$50.00</span>
+       <span class="new-price">$40.00</span>
+     </div>
+     <button class="btn-cart"><i class="fa-solid fa-cart-plus"></i> <span>Add to Cart</span></button>
+     <button class="btn-view"><span>Quick View</span></button>
+    </div>
+  </div>
+
+  <div class="column">
+    <img src="photos/jRlogo.png" alt="">
+    <div class="card-body">
+      <h6 class="card-title">Product Name 1</h6>
+      <p class="card-text">Description of Product 1</p>
+      <div class="price">
+        <span class="old-price">$50.00</span>
+       <span class="new-price">$40.00</span>
+     </div>
+     <button>btn1</button>
+      <button>btn2</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <img src="photos/jRlogo.png" alt="">
+    <div class="card-body">
+      <h6 class="card-title">Product Name 1</h6>
+      <p class="card-text">Description of Product 1</p>
+      <div class="price">
+        <span class="old-price">$50.00</span>
+       <span class="new-price">$40.00</span>
+     </div>
+     <button>btn1</button>
+      <button>btn2</button>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+
+
+
+ <!-- footer -->
+  <footer>
+    <div class="row-footer">
+      <div class="column">
+        <!-- Add content for the first column here -->
+      <h3>Contact Us</h3>
+      <p>For Any Question? call Us on:</p>
+      <p>+256754205197</p>
+  
+      <h3>Location:</h3>
+      <P>ARUA PARK PLAZA A4-238</P>
+      <P>Kampala Uganda</P>
+  
+      <div class="social-icons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+      </div>
+      <div class="column">
+        <!-- Add content for the second column here -->
+        <h3>Quick Links</h3>
+        <a href=""><p>How to buy at JR Stores</p></a>
+        <a href=""><p>Payment Methods</p></a>
+        <a href=""><p>My Account</p></a>
+        <a href=""><p>About Us</p></a>
+        <a href=""><p>Shop</p></a>
+        <a href=""><p>FAQs</p></a>
+      </div>
+      <div class="column">
+        <!-- Add content for the third column here -->
+        <h3>Use Policies</h3>
+        <a href=""><p>Terms and Conditions</p></a>
+        <a href=""><p>Refunds and Returns Policy</p></a>
+        <a href=""><p>Privacy Policy and Notice</p></a>
+        <a href=""><p>Cookie Notice</p></a>
+        <a href=""><p>Protection Policy</p></a>
+      </div>
+      <div><p>JRJerseyStores: All Rights Reserved : from Raystil</p></div>
+
+    </div>
+  </footer>
+  
+
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="js/bootsview.js" ></script>
+<!-- <script src="js/jersey.js" ></script> -->
+
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
